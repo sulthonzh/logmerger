@@ -1,0 +1,17 @@
+{
+  "name": "@sulthonzh/logmerger",
+  "version": "1.0.0",
+  "description": "Merge multiple log files by timestamp into unified chronological output. Debug microservices without losing your mind.",
+  "main": "src/index.mjs",
+  "bin": {
+    "logmerger": "src/cli.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/test.mjs"
+  },
+  "keywords": ["log", "merge", "timestamp", "debug", "microservices", "chronological"],
+  "author": "sulthonzh",
+  "license": "MIT",
+  "engines": { "node": ">=18.0.0" },
+  "repository": { "type": "git", "url": "https://github.com/sulthonzh/logmerger.git" }
+}
