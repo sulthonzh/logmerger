@@ -1,7 +1,4 @@
 #!/usr/bin/env node
-import { basename } from 'node:path';
-import { createReadStream } from 'node:fs';
-import { createInterface } from 'node:readline';
 import {
   mergeLogs, parseLogFile, formatText, formatJSON,
   formatMarkdown, formatSummary, mergeFiles, parseArgs,
