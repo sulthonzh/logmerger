@@ -7,7 +7,6 @@
 
 import { readFileSync } from 'node:fs';
 import { basename } from 'node:path';
-import { createInterface } from 'node:readline';
 
 // ── Timestamp patterns (most specific first) ──────────────────────────
 const TIMESTAMP_PATTERNS = [
