@@ -13,5 +13,7 @@
   "author": "sulthonzh",
   "license": "MIT",
   "engines": { "node": ">=18.0.0" },
+  "files": ["src/", "README.md", "LICENSE"],
+  "publishConfig": { "access": "public" },
   "repository": { "type": "git", "url": "https://github.com/sulthonzh/logmerger.git" }
 }
