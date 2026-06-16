@@ -1,8 +1,9 @@
 {
-  "name": "@sulthonzh/logmerger",
+  "name": "@quadbyte/logmerger",
   "version": "1.0.0",
   "description": "Merge multiple log files by timestamp into unified chronological output. Debug microservices without losing your mind.",
   "main": "src/index.mjs",
+  "exports": "./src/index.mjs",
   "bin": {
     "logmerger": "src/cli.mjs"
   },
@@ -15,5 +16,5 @@
   "engines": { "node": ">=18.0.0" },
   "files": ["src/", "README.md", "LICENSE"],
   "publishConfig": { "access": "public" },
-  "repository": { "type": "git", "url": "https://github.com/sulthonzh/logmerger.git" }
+  "repository": { "type": "git", "url": "https://github.com/quadbyte/logmerger.git" }
 }
