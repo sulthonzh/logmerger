@@ -10,11 +10,33 @@
   "scripts": {
     "test": "node --test test/test.mjs"
   },
-  "keywords": ["log", "merge", "timestamp", "debug", "microservices", "chronological"],
+  "keywords": [
+    "log",
+    "merge",
+    "timestamp",
+    "debug",
+    "microservices",
+    "chronological"
+  ],
   "author": "sulthonzh",
   "license": "MIT",
-  "engines": { "node": ">=18.0.0" },
-  "files": ["src/", "README.md", "LICENSE"],
-  "publishConfig": { "access": "public" },
-  "repository": { "type": "git", "url": "https://github.com/quadbyte/logmerger.git" }
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quadbyte/logmerger.git"
+  },
+  "homepage": "https://github.com/quadbyte/logmerger#readme",
+  "bugs": {
+    "url": "https://github.com/quadbyte/logmerger/issues"
+  }
 }
