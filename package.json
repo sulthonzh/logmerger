@@ -8,7 +8,8 @@
     "logmerger": "src/cli.mjs"
   },
   "scripts": {
-    "test": "node --test test/test.mjs"
+    "test": "node --test test/test.mjs",
+    "prepublishOnly": "npm test"
   },
   "keywords": [
     "log",
@@ -38,5 +39,8 @@
   "homepage": "https://github.com/quadbyte/logmerger#readme",
   "bugs": {
     "url": "https://github.com/quadbyte/logmerger/issues"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.31.0"
   }
 }
